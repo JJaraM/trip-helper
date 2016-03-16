@@ -1,0 +1,98 @@
+/* Empty. Add your own CSS if you like */
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body {
+
+}
+
+h1 {
+
+}
+
+.bg-login {
+  background-image: url("../img/bg/bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-login {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+.opacity-bg {
+  background-color: rgba(0,0,0,0.7);
+}
+.btn-login {
+  font-size: 1.8rem !important;
+  width: 100%;
+  color: #333;
+  background-color: #fff;
+  border-color: transparent;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+
+/*Login*/
+
+.pre-login {
+  text-align: center;
+  color: #FFF !important;
+  font-family: 'Poiret One', cursive !important;
+}
+
+.pre-login .logo {
+  padding-top: 50%;
+}
+
+.pre-login .logo h1{
+  font-family: 'Lobster', cursive !important;
+}
+
+.pre-login .button-group {
+  padding-top: 30%;
+}
+
+.pre-login .button-group button {
+  background: transparent;
+  border: solid 1px;
+  font-family: 'Poiret One', cursive !important;
+}
+
+.pre-login .button-group button:hover {
+  color: #FFF !important;
+}
+
+.pre-login .terms {
+  padding-top: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.welcome-input{
+  background: rgba(255,255,255, 0.70);
+  font-family: 'Poiret One', cursive !important;
+}
+
+
+/**/
+.error-popup .button.button-positive {
+  background: transparent;
+  color: #000;
+}
+
+.error-popup.popup-container.active .popup {
+  border-radius: 7px;
+}
+
+.error-popup .popup-head {
+      border-bottom: solid 1px;
+}
+
+.popup-buttons {
+  padding: 0px 0px 0px 0px !important;
+  min-height: 0px;
+}

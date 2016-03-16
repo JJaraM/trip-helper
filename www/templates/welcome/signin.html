@@ -1,0 +1,24 @@
+<ion-view view-title="Sign In" class="bg-login">
+  <ion-nav-buttons side="secondary">
+    <button class="button button-balanced" ng-click="signIn()">
+      Done
+    </button>
+  </ion-nav-buttons>
+  <ion-content class="bg-black opacity-bg">
+    <div class="list m">
+      <label class="item item-input welcome-input">
+        <span class="input-label">Email {{test}}</span>
+        <input type="email" ng-model="user.email"/>
+      </label>
+      <label class="item item-input welcome-input">
+      <span class="input-label">Password</span>
+        <input type="password" ng-model="user.password"/>
+      </label>
+    </div>
+    <div class="pre-login">
+      <div class="terms">
+        By Signin up, I agree to Trip Helper Term of Service, Privacy Policy
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
